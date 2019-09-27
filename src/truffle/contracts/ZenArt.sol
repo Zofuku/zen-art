@@ -12,6 +12,7 @@ contract ZenArt is ERC721Full, ERC721Burnable, ERC721Holder, Ownable {
   {
   }
 
+//ERC721の中身、ipfsのハッシュとパブリッシャーのアドレス。これを、バイヤーのアドレス、ipfsハッシュ、tokenURI 
   struct Paper {
     string ipfsHash;
     address publisher;
